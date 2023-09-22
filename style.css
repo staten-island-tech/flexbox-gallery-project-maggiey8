@@ -1,0 +1,52 @@
+body, html {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 210, 202);
+}
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+    margin: 15px;
+}
+
+.card {
+    height: 50vh;
+    width: 22%;
+    background-color: rgba(150, 99, 130, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+    border-radius: 5%;
+    box-shadow: 10px 10px rgb(56, 15, 17);
+}
+
+.card-img {
+    width: 75%;
+    max-height: 300px
+}
+
+.card-title {
+    font-size: 2.2rem;
+    margin: 0,5rem 0;
+    text-transform: uppercase;
+}
+
+.card-desc {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem auto;
+
+}
