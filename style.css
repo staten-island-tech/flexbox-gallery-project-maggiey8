@@ -10,21 +10,29 @@ body, html {
     font-size: 5rem;
     text-align: center;
     margin: 15px;
+    font-family: 'Croissant One', cursive;
 }
 
 .card {
     height: 50vh;
-    width: 22%;
+    width: 27%;
     background-color: rgba(150, 99, 130, 0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 1rem 0;
+    margin: 2rem 0;
+    padding: 10px;
     border-radius: 5%;
     box-shadow: 10px 10px rgb(56, 15, 17);
+    transition: all 0.6;
+    filter: grayscale(1);
 }
 
+.card:hover {
+    translate: 0 -20px;
+    filter: grayscale(0)
+}
 .card-img {
     width: 75%;
     max-height: 300px
@@ -33,7 +41,6 @@ body, html {
 .card-title {
     font-size: 2.2rem;
     margin: 0,5rem 0;
-    text-transform: uppercase;
 }
 
 .card-desc {
