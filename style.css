@@ -27,7 +27,7 @@ body, html {
 }
 
 .card {
-    height: 50vh;
+    height: 50%;
     width: 21%;
     background-color: rgba(150, 99, 130, 0.4);
     display: flex;
@@ -40,6 +40,7 @@ body, html {
     transition: all 0.5s;
     filter: grayscale(1);
     color: rgb(167, 62, 67);
+    min-height: 500px;
 }
 
 @media screen and (max-width: 1000px) {
